@@ -1,0 +1,25 @@
+{
+  "name": "demo-battery-api",
+  "version": "1.0.0",
+  "description": "> Battery Status API Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "start": "http-server -c-1 -p 9900"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pazguille/demo-battery-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pazguille/demo-battery-api/issues"
+  },
+  "homepage": "https://github.com/pazguille/demo-battery-api#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.18.1",
+    "http-server": "^14.1.0"
+  }
+}
